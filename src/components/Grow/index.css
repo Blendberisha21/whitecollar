@@ -1,0 +1,268 @@
+.Grow{
+    display:flex
+}
+
+
+
+.GrowChoose{
+background:#37393F;
+width:50%;
+
+}
+
+.AllTexts{
+    margin:13em 10em 10em 10em 
+}
+
+.AllTexts > h3{
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+.AllTexts > h1{
+    color: #FFF;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 121%; 
+}
+
+.AllTexts > p{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146.187%; 
+}
+
+.GrowBoxes{
+    display:flex;
+    margin-top:2.5em
+}
+
+.GrowBox{
+    display: flex;
+padding: 25px 50px;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+background: #2E2F34;
+}
+
+.GrowBoxes > div:nth-child(2){
+    margin-left:1.5em
+
+}
+
+.round{
+    width: 79.321px;
+    height: 79.321px;
+    flex-shrink: 0;
+    stroke-width: 3px;
+    stroke: #40DDB6;
+    background:#37393F;
+    border-radius:50px;
+    border:2px solid #40DDB6;
+}
+
+.round > p{
+   
+color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin:1.2em 0 0 1em;
+}
+
+.GrowBox > h1{
+    color: #FFF;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 135.187%; /* 21.63px */
+margin-top:1.3em
+}
+
+.GrowText{
+    display:flex;
+    margin-top:2em
+}
+
+
+
+.GrowTexts > h1{
+    color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.GrowTexts > h2{
+    color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+}
+
+.GrowTexts > p{
+    color: #40DDB6;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+#number{
+    color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.GrowText > div:nth-child(2){
+    margin-left:4em;
+    
+}
+
+#star{
+    color: #FFB342;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.GrowBackground1{
+width:50%
+}
+
+
+.GrowBackground > img{
+    display:none
+}
+
+.GrowBackground1 > img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+
+}
+
+
+@media(max-width:1400px){
+    .Grow{
+        display:block
+    }
+    .GrowChoose{
+        width:100%;
+        
+        }
+        .GrowBackground1{
+            width:100%;
+
+        }
+        
+        .GrowBackground1 > img{
+            width:100%;
+           margin-top:-10em;
+        }
+        
+     .Grow{
+        text-align:center;
+     }
+     .GrowBoxes{
+        justify-content:center
+     }
+
+     .GrowText{
+        justify-content:center;
+        padding-bottom:2em
+     }
+     .AllTexts{
+        margin-top:3em
+     } 
+     .AllTexts > h3{
+        padding-top:2em
+
+     }
+
+     .round > p{
+        margin-left:0.5em
+        }
+ 
+  
+}
+
+
+@media (max-width:600px){
+    .AllTexts > h3{
+    font-size: 16px;
+    line-height: 25px;
+    
+    }
+    .AllTexts{
+        margin:3em 0em 10em 0em 
+    }
+    .AllTexts > h1{
+
+    font-size: 25px;
+    line-height: 35px;
+    }
+    
+    .AllTexts > p{
+        font-size: 16px;
+        margin-top:2em
+    }
+    .GrowBox{
+    padding: 15px 25px;
+
+    }
+    .round{
+        width: 60.321px;
+        height: 60.321px;
+  
+    }
+    
+    .round > p{
+    font-size: 15px;
+    }
+    
+    .GrowBox > h1{
+    font-size: 16px;
+    margin-top:0.7em
+    }
+
+
+}
+
+@media (max-width:420px){
+    
+    .GrowBox{
+        padding: 15px 20px;
+        }
+        .round{
+            width: 50.321px;
+            height: 50.321px;
+      
+        }
+        
+        .round > p{
+        font-size: 14px;
+        }
+        
+        .GrowBox > h1{
+        font-size: 15px;
+        margin-top:0.7em
+        }
+}

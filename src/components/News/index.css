@@ -1,0 +1,198 @@
+.news{
+    margin-bottom:5em
+}
+
+.textPart{
+    margin:10em 0 3em 23em
+}
+
+.textPart > p{
+    color: #37393F;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 10px;
+}
+
+.textPart > h2{
+    color: #37393F;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+}
+
+.newsBoxes{
+    display:flex;
+    justify-content:center
+}
+
+.newsBoxes > div:nth-child(2){
+    margin-left:2em
+}
+
+.newsBox{
+    display:block
+}
+
+.newsBox > img{
+    width:38.5em
+}
+
+.bar{
+    display:flex;
+    
+}
+
+.bar1{
+    display: flex;
+padding: 11px 50px 12px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #6B77E5;
+margin-top:-0.3em;
+height:50px;
+width:7em;
+
+}
+
+.bar1 > p{
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.bar2{
+    display: flex;
+    padding: 11px 50px 13px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #6B77E5;
+    margin-top:-0.3em;
+    height:50px;
+    width:6em;
+    background:#40DDB6;
+    border-right:2px solid #2D9E82;
+    }
+
+
+.bar3{
+    display: flex;
+padding: 11px 50px 12px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #6B77E5;
+margin-top:-0.3em;
+height:50px;
+width:6em;
+background:#40DDB6;
+}
+
+.bar2,.bar3 > p{
+    color: #208068;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+@media(max-width:1300px){
+    .newsBox > img{
+        width:33em
+    }
+
+    .bar1{
+    width:5.8em;
+    
+    }
+    
+    .bar1 > p{
+    font-size: 16px;
+    }
+    
+    .bar2, .bar3{
+    width:4em;
+    }
+    
+}
+
+@media(max-width:1100px){
+    .news{
+        text-align:center
+    }
+    .textPart{
+        margin:5em 0 3em 0
+    }
+    .newsBoxes{
+        display:block;
+
+    }
+    .newsBoxes > div:nth-child(2){
+        margin:2em 0 0 0;
+    }
+     .bar{
+
+        justify-content:center
+     }
+
+}
+
+@media(max-width:550px){
+    .newsBox > img{
+        width:25em
+    }
+
+    .bar1{
+    width:2.2em;
+    
+    }
+    
+    .bar1 > p{
+    font-size: 14px;
+    }
+    
+    .bar2, .bar3{
+    width:2em;
+    }
+    .bar2 , .bar3 > p{
+        font-size: 15px;
+
+    }
+}
+
+@media(max-width:420px){
+    .newsBox > img{
+        width:23em
+    }
+    .bar1{
+    width:1.4em;
+    }
+    
+    .bar2, .bar3{
+    width:1.5em;
+    }
+
+}
+
+@media(max-width:360px){
+    .newsBox > img{
+        width:20em
+    } 
+
+    .bar1{
+        width:0em;
+        }
+        
+        .bar2, .bar3{
+        width:0.5em;
+        }
+}

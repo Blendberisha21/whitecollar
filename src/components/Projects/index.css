@@ -1,0 +1,314 @@
+.heading{
+    display:flex;
+    justify-content:space-around;
+    margin-top:5em
+}
+
+.headText > p{
+    color: #37393F;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.headText > h1{
+    color: #37393F;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 121%; /* 48.4px */
+margin-top:0
+}
+
+
+
+.heading > button{
+    display:flex;
+padding: 10px 45px 10px 45px;
+justify-content: center;
+align-items: center;
+height:5em;
+gap: 10px;
+color: #FFF;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+background: #40DDB6;
+border:none;
+margin-top:3em
+}
+
+.showImg{
+    display: flex;
+width: 1856px;
+align-items: center;
+justify-content:space-around;
+gap: 40px;
+margin:2em auto auto
+}
+
+.showImg > img{
+    width: 25em;
+height: 40em;
+flex-shrink: 0;
+}
+
+.testimonial{
+    display:flex;
+    justify-content:center;
+    margin:5em 0 5em 0
+}
+
+.testiText > h3{
+    color: #37393F;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.testiText> h1{
+    color: #37393F;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 121%; /* 48.4px */
+}
+
+.testiText > p{
+    color: #7D7D7D;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 146.187%; /* 26.314px */
+}
+
+.testiBox{
+    justify-content:center;
+padding: 50px 50px 50px 45px;
+gap: 10px;
+flex-shrink: 0;
+background: #F6F6F6;
+margin-left:5em
+}
+
+.testiBox2{
+    justify-content:center;
+padding: 50px 40px 10px 45px;
+gap: 10px;
+flex-shrink: 0;
+background: #F6F6F6;
+margin-left:5em;
+height:13em
+}
+
+.user{
+    display:flex;
+}
+
+.user > img{
+    width:6em;
+    height:6em;
+    border-radius:100px
+}
+
+.user > h1{
+    color: #37393F;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left:1em
+}
+
+.testiBox > p{
+    color: #7D7D7D;
+font-size: 18px;
+font-style: italic;
+font-weight: 400;
+line-height: 146.187%; /* 32.161px */
+text-align:center
+}
+
+.testiBox2 > p{
+    color: #7D7D7D;
+font-size: 18px;
+font-style: italic;
+font-weight: 400;
+line-height: 146.187%; /* 32.161px */
+text-align:center
+}
+
+
+@media(max-width:1850px){
+    
+.showImg{
+width: 1556px;
+
+}
+
+}
+
+@media(max-width:1750px){
+    .showImg{
+        width: 1356px;
+        gap: 20px;
+        }
+        .showImg > img{
+            width: 23em;
+        height: 35em;
+        }
+        
+}
+
+@media(max-width:1550px){
+    .showImg{
+        width: 1056px;
+        gap: 20px;
+        }
+        .showImg > img{
+            width: 20em;
+        height: 30em;
+        }
+}
+
+
+@media(max-width:1400px){
+    .showImg > img{
+        width: 15em;
+    height: 23em;
+    }
+
+}
+
+@media(max-width:1100px){
+    .showImg{
+        width: 806px;
+        gap: 10px;
+        }
+    .showImg > img{
+        width: 13em;
+    height: 20em;
+    }
+
+    .testimonial{
+      margin-left:2em
+    }
+    
+    .testiText > h3{
+    font-size: 16px;
+
+    }
+    
+    .testiText> h1{
+    font-size: 35px;
+    }
+    
+    .testiText > p{
+    font-size: 16px;
+
+    }
+    
+    .testiBox{
+    padding: 40px 40px 40px 35px;
+    margin-left:3em
+    }
+    
+    .testiBox2{
+        justify-content:center;
+    padding: 40px 30px 5px 35px;
+    margin-left:3em;
+    }
+    
+
+    
+
+}
+
+@media(max-width:970px){
+    .showImg{
+        width:350px;
+        display: block;
+    align-items: center;
+    justify-content:center;
+    align-content:center;
+    margin:3em auto auto;
+    }
+    
+    .showImg > img{
+        width:23em;
+        height:35em;
+        margin-top:1em
+
+    }
+
+    .testimonial{
+        display:block;
+        text-align:center;
+        justify-content:center;
+    }
+
+    .testiBox,.testiBox2{
+        width:20em;
+        margin:2em auto auto
+    }
+
+}
+
+
+@media(max-width:700px){
+    .headText{
+        margin-left:1em
+    }
+    .headText > p{
+    font-size: 15px;
+    }
+    
+    .headText > h1{
+    font-size: 30px;
+    }
+    
+
+    
+    .heading > button{
+    height:4em;
+    margin-right:1em;
+    }
+     .testiBox,.testiBox2{
+            margin-right:2.5em
+        }
+}
+
+@media (max-width:420px){
+
+       
+    .showImg > img{
+   
+        margin-left:1em
+
+    }
+
+    .headText > h1{
+        font-size: 25px;
+        }
+
+        
+        .showImg > img{
+            width:20em;
+            height:30em;
+    
+        }
+    
+
+    
+        .testiBox,.testiBox2{
+            width:15em;
+            margin-right:3em
+
+        }
+    
+}

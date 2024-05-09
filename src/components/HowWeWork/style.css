@@ -1,0 +1,191 @@
+.hwText{
+    text-align:center;
+    margin-top:5em
+}
+
+.hwText > p{
+    color: rgb(55, 57, 63);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+.hwText > h1{
+    color: rgb(55, 57, 63);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.hwBoxes{
+    display:flex;
+    justify-content:center;
+    margin-top:2em
+}
+
+.hwBoxes > .hwBox:nth-child(n + 2) {
+    margin-left: 2em;
+}
+.hwBox{
+    /* Process */
+position: relative;
+width: 386px;
+height: 301px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 58px 43px 58px 43px;
+background: rgb(244, 244, 244);
+}
+
+.hwBox > h1{
+    color: rgb(55, 57, 63);
+font-size: 30px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.hwBox > h2{
+    color: rgb(125, 125, 125);
+font-size: 20px;
+font-weight: 400;
+line-height: 146.19%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.hwBox > p{
+    color: rgb(107, 119, 229);
+font-size: 20px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+
+.RoundThing{
+    /* Ellipse */
+position: absolute;
+width: 72px;
+height: 72px;
+left: 157px;
+right: -157px;
+top: 0;
+bottom: 0;
+background: rgb(64, 221, 182);
+border-radius:100px;
+text-align:center;
+margin:-2em 0 0 3em
+
+}
+
+.RoundThing > svg{
+   width:45px;
+   margin:1.5em 0 0 0.2em
+}
+
+@media(max-width:1600px){
+    .hwBox{
+    width: 286px;
+    height: 201px;
+    }
+    .RoundThing{
+    margin:-2em 0 1em 0    
+    }
+}
+
+
+@media(max-width:1200px){
+    .hwBox{
+        width: 250px;
+        height: 181px;
+        }
+        .hwBox > h1{
+        font-size: 20px;
+
+        }
+        
+        .hwBox > h2{
+        font-size: 16.5px;
+        }
+        
+        .hwBox > p{
+        font-size: 16.5px;
+        }
+        .RoundThing{
+        margin:-2em 0 0 -1em    
+        }
+}
+
+
+@media(max-width:1050px){
+    .hwBox{
+        width: 225px;
+        height: 191px;
+        }
+        .hwBox > h1{
+        font-size: 18px;
+
+        }
+        
+        .hwBox > h2{
+        font-size: 16px;
+        }
+        
+        .hwBox > p{
+        font-size: 16px;
+        }
+        .RoundThing{
+        margin:-2em 0 0 -2em    
+        }
+}
+
+@media(max-width:950px){
+    .hwBoxes{
+        display:block;
+        margin-top:3em;
+    }
+
+        .hwBox > h1{
+        font-size: 25px;
+
+        }
+        
+        .hwBox > h2{
+        font-size: 18px;
+        }
+        
+        .hwBox > p{
+        font-size: 18px;
+        }
+        .RoundThing{
+        margin:-2em 0 0 0  
+        }
+
+    .hwBoxes > .hwBox:nth-child(n + 2) {
+        margin:3em auto 0 auto
+    }
+    .hwBox{
+        width: 300px;
+        height: 251px;
+        margin:auto auto
+    }
+}
+
+@media(max-width:430px){
+    .hwBox{
+        width: 250px;
+        height: 190px;
+    }
+    .RoundThing{
+        margin:-2em 0 0 -1.5em  
+        }
+}

@@ -1,0 +1,114 @@
+.aboutBody {
+    background-image: url('../images/aboutHead.jpg');
+    padding: 3em;
+    background-repeat:no-repeat;
+    position: relative; /* Set the position to relative for positioning the absolute children */
+    height: 50vh; /* Set a height so that the background covers the entire viewport */
+    margin-top:1em
+}
+
+.textAbout{
+    width: 828px;
+    height: 458px;
+flex-shrink: 0;
+fill: rgba(55, 57, 63, 0.91);
+backdrop-filter: blur(9.5px);
+position: absolute;
+margin:-3em 0 10em 5em
+}
+
+.textPart2{
+    position:absolute;
+    margin:3em 0 0 300px
+}
+
+.textPart2 > h2{
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 116.187%; /* 26.314px */
+margin-bottom:-1em
+}
+
+.textPart2 > h1{
+    color: #FFF;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 80%; /* 66px */
+}
+
+.textPart2 > p{
+    color: #B9B9B9;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 126.187%; /* 26.314px */
+}
+
+
+
+@media(max-width:900px){
+    .main{
+        justify-content:center;
+        display:flex
+    }
+.textAbout{
+    margin:auto auto;
+    width: 428px;
+    height: 408px;
+}
+    .textPart2{
+        text-align:center;
+        margin:5em 0 0 0
+    }
+}
+
+@media(max-width:770px){
+ 
+    .textAbout{
+        width: 428px;
+        height: 408px;
+        margin:0;
+    }
+    .textAbout{
+        margin-left:-7em;
+    }
+    .textPart2{
+        margin:5em 0 0 -7em
+    }
+}
+
+@media(max-width:600px){
+
+    .textAbout{
+        width: 428px;
+        height: 408px;
+        margin:0
+    }
+    .textPart2{
+        margin:7em 0 0 0
+    }
+    .textPart2 > h2{
+    font-size: 16px;
+    }
+    
+    .textPart2 > h1{
+    font-size: 45px;
+    }
+    
+    .textPart2 > p{
+    font-size: 16px;
+    }
+}
+
+@media(max-width:450px){
+    .textAbout{
+        width: 358px;
+        height: 338px;
+    }
+    .textPart2 > p{
+        font-size: 15px;
+        }
+}

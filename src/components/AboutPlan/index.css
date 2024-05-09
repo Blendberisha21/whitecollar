@@ -1,0 +1,359 @@
+.AboutPlan{
+    display:flex;
+    margin-top:-7.5em;
+    justify-content:center
+}
+
+.leftPlan{
+    background: #F4F4F4;
+    width:50%   ;
+}
+
+.rightPlan{
+    width:50%
+
+}
+
+.PlanText{
+margin:10em 0 0 28em;
+
+}
+
+.PlanText > h1{
+    color: #37393F;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 121%; /* 36.3px */
+}
+
+.PlanText > P{
+    color: #7D7D7D;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 146.187%; /* 26.314px */
+}
+
+.PlanText > h2{
+    color: #37393F;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+border-bottom:3px solid #37393F;
+width: 109px;
+}
+
+
+.PlanText > img{
+margin-top:1em
+}
+
+.PlanText2{
+    margin:10em 0 0 3em
+}
+
+.PlanText2 > h3{
+    color: #37393F;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.PlanText2 > h1{
+    color: #37393F;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 121%; /* 48.4px */
+}
+
+.PlanText2> p{
+    color: #7D7D7D;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 146.187%; /* 26.314px */
+}
+
+.boxPlan{
+    display: flex;
+padding: 10px 41px 10px 38px;
+flex-direction: column;
+align-items: flex-start;
+border: 1px solid #E3E3E3;
+max-height:140px;
+max-width:600px;
+margin-top:1em
+}
+
+.boxPlan > h2{
+    color: #37393F;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 5px;
+}
+
+.boxPlan > p{
+    color: #7D7D7D;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 146.187%; /* 26.314px */
+}
+
+.PlanText2 > button{
+    display: flex;
+padding: 21px 35px 22px 35px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #6B77E5;
+color: #FFF;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+border-style:none;
+margin-top:1em;
+cursor:pointer
+}
+
+
+@media(max-width:1750px){
+
+    .PlanText{
+    margin:10em 0 0 17em;
+    
+    }
+    
+    .PlanText > h1{
+    font-size: 25px;
+    }
+    
+    .PlanText > P{
+    font-size: 16px;
+    }
+    
+    .PlanText > h2{
+    font-size: 17px;
+    }
+    .PlanText > img{
+        width:23em
+    }
+
+    .PlanText2{
+        margin:10em 0 0 2em
+    }
+    
+    .PlanText2 > h3{
+    font-size: 16px;
+
+    }
+    
+    .PlanText2 > h1{
+    font-size: 35px;
+    }
+    
+    .PlanText2> p{
+    font-size: 16px;
+    }
+    
+    .boxPlan{
+    max-height:130px;
+    max-width:460px;
+    }
+    
+    .boxPlan > h2{
+    font-size: 18px;
+    }
+    
+    .boxPlan > p{
+    font-size: 16px;
+
+    }
+    
+    .PlanText2 > button{
+    padding: 21px 28px 22px 28px;
+    font-size: 16px;
+    }
+
+}
+
+
+@media(max-width:1300px){
+    .PlanText{
+        margin:10em 0 0 12em;
+        
+        }
+        
+        .PlanText > h1{
+        font-size: 23px;
+        }
+        
+        .PlanText > P{
+        font-size: 15px;
+        }
+        
+        .PlanText > h2{
+        font-size: 17px;
+        }
+        .PlanText > img{
+            width:21em
+        }
+    
+        .PlanText2{
+            margin:10em 0 0 2em
+        }
+        
+        .PlanText2 > h3{
+        font-size: 15px;
+    
+        }
+        
+        .PlanText2 > h1{
+        font-size: 33px;
+        }
+        
+        .PlanText2> p{
+        font-size: 16px;
+        }
+        
+        .boxPlan{
+        max-height:110px;
+        max-width:420px;
+        }
+        
+        .boxPlan > h2{
+        font-size: 18px;
+        }
+        
+        .boxPlan > p{
+        font-size: 16px;
+    
+        }
+        
+        .PlanText2 > button{
+        padding: 21px 25px 22px 25px;
+        font-size: 16px;
+        }
+}
+
+
+@media(max-width:1050px){
+    .PlanText{
+        margin:10em 0 0 5em;
+        
+        }
+        
+        .PlanText > h1{
+        font-size: 22px;
+        }
+        
+        .PlanText > P{
+        font-size: 15px;
+        }
+        
+        .PlanText > h2{
+        font-size: 17px;
+        }
+        .PlanText > img{
+            width:20em
+        }
+    
+        .PlanText2{
+            margin:10em 0 0 2em
+        }
+        
+        .PlanText2 > h3{
+        font-size: 16px;
+    
+        }
+        
+        .PlanText2 > h1{
+        font-size: 30px;
+        }
+        
+        .PlanText2> p{
+        font-size: 16px;
+        }
+        
+        .boxPlan{
+        max-height:100px;
+        max-width:380px;
+        }
+        
+        .boxPlan > h2{
+        font-size: 16px;
+        line-height:0
+        }
+        
+        .boxPlan > p{
+        font-size: 15px;
+    
+        }
+        
+        .PlanText2 > button{
+        padding: 21px 20px 22px 20px;
+        font-size: 15px;
+        }
+}
+
+@media(max-width:850px){
+    .AboutPlan{
+        display:block;
+        text-align:center
+    }
+    .leftPlan{
+        width:100%   ;
+    }
+    
+    .rightPlan{
+        width:100%
+    }
+    .PlanText{
+        margin:0;
+        
+        }
+        .PlanText > img{
+            margin-top:10em
+        }
+        .PlanText > h2{
+            width:100%
+        }
+        
+    .PlanText2{
+        margin:2em 0 0 0;
+    }
+    .boxPlan{
+        margin:1.5em auto 0 auto
+    }
+    .PlanText2 > button{
+        margin: 2em auto 0 auto
+    }
+}
+
+@media(max-width:430px){
+    .PlanText2 > h1{
+        font-size: 25px;
+        }
+        
+    .PlanText2> p{
+        font-size: 13px;
+        }
+        .boxPlan{
+            max-height:100px;
+            max-width:200px;
+            }
+            .PlanText2 > button{
+                padding: 19px 18px 20px 18px;
+                font-size: 14px;
+                }
+            
+}

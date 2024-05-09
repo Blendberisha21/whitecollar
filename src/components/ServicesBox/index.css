@@ -1,0 +1,160 @@
+.servicesBox{
+    background: rgb(55, 57, 63);
+    padding:2em;
+}
+
+.servicesText{
+    display:flex;
+    justify-content:center;
+    padding-top:5em
+}
+
+.leftSideService > p{
+    color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.leftSideService > h1{
+    color: rgb(255, 255, 255);
+font-size: 30px;
+font-weight: 600;
+line-height: 121%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.rightSideService > p{
+    color: rgb(255, 255, 255);
+font-size: 17px;
+line-height: 146.19%;
+letter-spacing: 0%;
+text-align: left;
+margin-left:15em
+}
+
+
+.theServiceBoxes{
+display:flex;
+justify-content:center;
+margin-top:1em
+}
+
+.theServiceBoxes > .theServiceBox:nth-child(n+2){
+    margin-left:2em
+}
+
+.theServiceBox{
+    border:1.5px solid rgb(99, 99, 99);
+    width:13em;
+    padding:1em;
+    border-radius:1px;
+    cursor:pointer
+}
+
+.theServiceBox > img{
+width:3.5em;
+display: block;
+margin:1em auto 0 auto
+}
+
+.theServiceBox > h1{
+    color: rgb(255, 255, 255);
+font-size: 25px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.theServiceBox > p{
+    color: rgb(255, 255, 255);
+font-size: 17px;
+line-height: 146.19%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.theServiceBox:hover{
+    background: rgb(107, 119, 229);
+}
+
+@media(max-width:1300px){
+    .rightSideService > p{
+    margin-left:10em
+    }
+    
+}
+
+@media(max-width:1000px){
+    .rightSideService > p{
+        margin-left:5em;
+        }
+        
+        .theServiceBox > img{
+            width:3em;
+            }
+            
+            .theServiceBox > h1{
+            font-size: 22px;
+            }
+            
+            .theServiceBox > p{
+            font-size: 16.5px;
+            }   
+}
+
+
+@media(max-width:800px){
+    .rightSideService > p{
+        margin-left:5em;
+        font-size: 15.5px;
+        }
+        .leftSideService > p{
+        font-size: 16px;
+        }
+        
+        .leftSideService > h1{
+        font-size: 25px;
+        }
+        .theServiceBox > img{
+            width:2.5em;
+            }
+            
+            .theServiceBox > h1{
+            font-size: 20px;
+            }
+            
+            .theServiceBox > p{
+            font-size: 15px;
+            }   
+}
+
+@media(max-width:600px){
+    .theServiceBoxes{
+        display:block;
+    }
+    .theServiceBoxes > .theServiceBox:nth-child(n+2){
+        margin:1.5em auto 0 auto;
+}
+     .theServiceBox{
+        margin:auto auto
+     }
+     .leftSideService{
+        margin-left:1.5em
+     }
+       .rightSideService > p{
+        margin-left:4em;
+        font-size: 14.5px;
+        }
+        .leftSideService > p{
+        font-size: 15px;
+        }
+        
+        .leftSideService > h1{
+        font-size: 21px;
+        }
+}

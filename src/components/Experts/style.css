@@ -1,0 +1,116 @@
+.experts{
+    text-align:center;
+    margin-top:5em
+}
+
+.experts > p{
+    color: rgb(55, 57, 63);
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+}
+
+.experts > h1{
+    color: rgb(55, 57, 63);
+font-size: 40px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.expertsImage{
+    display:flex;
+    justify-content:center
+}
+
+.expertsImage > .expertsBox:nth-child(n+2){
+    margin-left:3em
+}
+
+.whiteboxExpert{
+position: absolute;
+width: 201px;
+height: 104px;
+flex-direction: column;
+align-items: center;
+padding: 24px 69px 24px 69px;
+background: rgb(255, 255, 255);
+margin:-11em 0 0 2em
+}
+
+.whiteboxExpert > h1{
+    color: rgb(55, 57, 63);
+font-size: 25px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.whiteboxExpert > p{
+    color: rgb(125, 125, 125);
+font-size: 18px;
+font-weight: 400;
+line-height: 135.19%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+@media(max-width:1400px){
+.expertsBox > img{
+    width:23em
+}
+.whiteboxExpert{
+    margin:-11em 0 0 1em
+    }
+}
+
+@media(max-width:1200px){
+    .expertsBox > img{
+        width:20em
+    }
+    .whiteboxExpert{
+        width: 161px;
+        margin:-11em 0 0 0.5em
+        }
+        .whiteboxExpert > h1{
+        font-size: 23px;
+        }
+        
+        .whiteboxExpert > p{
+        font-size: 16px;
+        }
+}
+
+@media(max-width:1080px){
+    .experts > p{
+    font-size: 18px;
+    }
+    
+    .experts > h1{
+        color: rgb(55, 57, 63);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+    
+    
+        .expertsImage{
+            display:block;
+        }
+        .expertsImage > .expertsBox:nth-child(n+2){
+            margin-left:0
+        }
+        .expertsImage > .expertsBox:nth-child(n+2){
+            margin-top:5em
+        }
+        .whiteboxExpert{
+            position:relative;
+            margin:-12em auto 0 auto;
+        }
+    
+}

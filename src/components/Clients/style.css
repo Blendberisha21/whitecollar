@@ -1,0 +1,140 @@
+.clients{
+    display:flex;
+background: rgba(248, 248, 255, 0.97);
+margin-top:4em;
+justify-content:center;
+padding:3em
+}
+
+.client > h1{
+    color: rgb(64, 221, 182);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+
+.client > h2{
+    color: rgb(55, 57, 63);
+font-size: 20px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+
+
+.client > p{
+    color: rgb(125, 125, 125);
+font-size: 19px;
+font-weight: 400;
+line-height: 146.19%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.clients > .client:nth-child(n+2){
+    margin-left:5em
+}
+
+.greenBack{
+    text-align:center;
+    background-image: url('../images/greenBack.png');
+    margin-top:-1em;
+    padding:8em
+}
+
+.greenBack > h2{
+    color: rgb(55, 57, 63);
+font-size: 20px;
+font-weight: 500;
+line-height: 1px;
+letter-spacing: 0%;
+}
+
+.greenBack > h1{
+    color: rgb(55, 57, 63);
+font-size: 40px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.greenBack > p{
+    color: rgb(55, 57, 63);
+font-size: 18px;
+font-weight: 400;
+line-height: 146.19%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.greenBack > svg{
+    width:60px;
+    height:60px
+}
+
+
+@media(max-width:1000px){
+    .client > h1{
+    font-size: 33px;
+    }
+    
+    .client > h2{
+    font-size: 18px;
+    }
+    
+    
+    .client > p{
+    font-size: 17px;
+    }
+    
+    .clients > .client:nth-child(n+2){
+        margin-left:3em
+    }
+}
+
+@media(max-width:700px){
+    .client > h1{
+        font-size: 25px;
+        }
+        
+        .client > h2{
+        font-size: 17px;
+        }
+        
+        
+        .client > p{
+        font-size: 16px;
+        }
+        
+        .clients > .client:nth-child(n+2){
+            margin-left:2em
+        }
+}
+
+@media(max-width:600px){
+    .client > h1{
+        font-size: 23px;
+        }
+        
+        .client > h2{
+        font-size: 17px;
+        }
+        
+        
+        .client > p{
+        font-size: 15.5px;
+        }
+        
+        .clients > .client:nth-child(n+2){
+            margin-left:1em
+        }
+        .greenBack{
+            padding:5em
+        }
+}

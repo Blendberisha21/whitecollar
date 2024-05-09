@@ -1,0 +1,184 @@
+.top{
+    justify-content:space-around;
+    display:flex;
+    background: #37393F;
+    width:100%;
+    flex-shrink: 0;
+}
+
+.left,.right > p{
+    color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin:1em 1em 1em 1em
+}
+
+.right > p{
+    margin-top:2em;
+}
+
+svg{
+    width: 15.53px;
+height: 22.081px;
+flex-shrink: 0;
+margin:1em 1em 0 1em
+}
+.right > svg{
+    margin-top:1.7em
+}
+
+.left{
+    display:flex
+}
+
+.right{
+    display:flex
+}
+
+nav{
+    display:flex;
+    justify-content:space-around
+}
+
+.logo{
+    display:flex
+}
+
+.logo > svg{
+    width: 42.171px;
+height: 29px;
+flex-shrink: 0;
+margin-top:2.3em
+}
+
+.logo > h1{
+    color: #37393F;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top:1.2em
+}
+
+.logo > h1 > span{
+    color: #6B77E5;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.nav > ul{
+    display:flex;
+    color: #37393F;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.nav > ul > li{
+    list-style:none;
+    margin:1em
+
+}
+
+a{
+    text-decoration:none;
+    color: #37393F;
+
+}
+
+.nav > ul > button {
+    display: flex;
+padding: 21px 30px 22px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #6B77E5;
+color: #FFF;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+margin-left:2em;
+text-transform: capitalize;
+border:none
+}
+
+.checkBtn{
+    display:none
+}
+#check{
+    display:none
+}
+
+@media (max-width:800px){
+    .top{
+        display:block;
+        justify-content:center;
+        text-align:center;
+
+
+    }
+    .left,.right > p{
+        justify-content:center;
+        margin:0
+    }
+.right > p{
+text-align:center;
+margin:1.5em auto 0 auto
+    }
+
+ .nav > ul{
+     display:block;
+        font-size:20px;
+        position:fixed; 
+        width:95%;
+        height:100vh;
+        text-align:center;
+        top:160px;
+        left:-150%;
+        background: #40DDB6;
+        transition:all .5s;
+        z-index:1;
+        margin-top:2.4em;
+    }
+    
+    .nav > ul > li > a{
+        color:white;
+    }
+    .nav > ul > li > a:hover{
+        color:black;
+      
+    }
+    .nav > ul > button {
+   justify-content:center;
+margin:auto auto
+    }
+
+    #check:checked ~ .nav > ul{
+        left:0
+    }
+   .checkBtn{
+        display:flex;
+        width:4em;
+        height:4em;
+        margin:2em 0 0 5em
+    }
+
+}
+
+@media(max-width:420px){
+    .nav > ul > li > a{
+        color:white;
+        margin-left:-2em
+    }
+    .nav > ul > button {
+     margin-left:4em
+         }
+}

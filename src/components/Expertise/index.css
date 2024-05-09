@@ -1,0 +1,214 @@
+.theLogos{
+    display: flex;
+    width: 1141.461px;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+    margin:4em auto auto
+}
+
+.theTexts{
+    margin-top:5em
+}
+
+.theTexts > p{
+    color: #37393F;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+
+}
+
+.theTexts > h1{
+    color: #37393F;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 121%; /* 48.4px */
+}
+
+
+.firstBoxes{
+    margin-top:5em;
+    display:flex;
+    justify-content:center;
+    margin-bottom:5em
+
+}
+
+.theBox{
+    display: flex;
+    padding: 30px;
+    width:25em;
+    height:10em;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: #F4F4F4;
+    flex-shrink: 0;
+
+    
+}
+
+.firstBoxes > div:nth-child(n+2):nth-child(-n+3){
+    margin-left:2em
+}
+
+.textInBox{
+    display:flex;
+}
+
+.textInBox > h1{
+    color: #37393F;
+    font-size:25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 127%; /* 31.75px */
+}
+
+
+.textInBox > svg{
+    width: 72px;
+height: 72px;
+flex-shrink: 0;
+margin-left:12em
+}
+
+.theBox > p{
+    color: #6B77E5;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.theBox2{
+    display: flex;
+    padding: 30px;
+    width:25em;
+    height:10em;justify-content: center;
+align-items: center;
+gap: 10px;
+background: #6B77E5;
+}
+
+.theBox2 > h1{
+    color: #FFF;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+@media(max-width:1500px){
+
+    .theBox{
+        width:20em;
+    }
+    
+    .textInBox > svg{
+    margin-left:8em
+    }
+ 
+    .theBox2{
+        width:20em;
+
+    }
+    .textInBox > h1{
+        font-size:20px;
+
+    }
+    
+    
+}
+
+@media(max-width:1200px){
+    .theLogos{
+        width: 900.461px;
+        gap: 65px;
+
+    }
+    .theBox{
+        width:15em;
+    }
+    
+    .textInBox > svg{
+    margin-left:5em
+    }
+ 
+    .theBox2{
+        width:15em;
+
+    }
+    .textInBox > h1{
+        font-size:18px;
+
+    }
+}
+
+
+
+@media(max-width:990px){
+  
+    .firstBoxes {
+        display: flex;
+        justify-content: center;
+        margin: auto auto;
+        align-content: center;
+        flex-wrap: wrap; 
+      }
+    
+      .theBox {
+        margin: 1.5em; 
+        text-align: center; 
+      }
+    .theBox2{
+        margin: 1.5em;
+        text-align: center;
+    }
+      .theLogos {
+        width: 400.461px;
+        gap: 25px;
+        margin: auto;
+        text-align: center; 
+        margin-top:4em
+
+      }
+    
+      .theLogos > img {
+        width: 8em;
+      }
+}
+
+
+@media(max-width:700px){
+    .theLogos{
+        width: 400.461px;
+        gap: 15px;
+
+    }
+    .theLogos > img{
+        width:5em
+    }
+}
+
+@media(max-width:430px){
+    .theLogos{
+        width: 350.461px;
+        gap: 12px;
+    }
+    .theLogos > img{
+        width:4em
+    }
+}
+
+@media(max-width:360px){
+    .theLogos > img{
+        width:3.2em
+    }
+}

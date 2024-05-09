@@ -1,0 +1,330 @@
+.business{
+    display:flex;
+    justify-content:space-between
+}
+
+.fPart{
+    display:block;
+    width: 828px;
+    height:700px;
+    padding: 151px 52px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #F4F4F4;
+}
+
+.items{
+    margin:5em
+}
+
+.items > img{
+    width: 678px;
+height: 452px;
+flex-shrink: 0;
+}
+
+.items > h1{
+    color: #37393F;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 121%; /* 36.3px */
+}
+
+.items > p{
+    color: #7D7D7D;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 146.187%; /* 26.314px */
+}
+
+.items > h6{
+    color: #7D7D7D;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 146.187%; /* 26.314px */
+border-bottom:3px solid #7D7D7D;
+width: 109px;
+height: 22px;
+flex-shrink: 0;
+cursor:pointer;
+}
+
+.sPart{
+    display:block;
+    margin:10em 15em 0 0
+}
+
+
+.sPart > h3{
+    color: #37393F;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+.sPart > h1{
+    color: #37393F;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 121%; /* 48.4px */
+}
+
+.sPart > p{
+    color: #7D7D7D;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 146.187%; /* 26.314px */
+}
+
+.sPart > h5{
+    color: #37393F;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.boxes{
+    display:flex;
+}
+
+.boxes > div:nth-child(2){
+    margin-left:2em
+}
+
+.box{
+    display: flex;
+padding: 10px 40px 10px 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 1px;
+border: 1px solid #E3E3E3;
+}
+
+
+
+.box > h1{
+    color: #37393F;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 2px;
+}
+
+.box > p{
+    color: #7D7D7D;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 17px
+}
+
+.sPart > button{
+    display: flex;
+padding: 21px 27px 22px 27px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #6B77E5;
+color: #FFF;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+border:none;
+margin-top:2em
+}
+
+@media (max-width:1700px){
+
+    .sPart{
+        margin:10em 5em 0 0
+    }
+}
+
+@media(max-width:1550px){
+    .fPart{
+        width: 728px;
+        height:700px;
+    }
+    .items{
+        margin:5em 6em 3em 3em
+    }
+    .sPart{
+        margin:10em 1em 0 0
+    }
+}
+
+@media(max-width:1400px){
+    .fPart{
+        width: 628px;
+        height:700px;
+    }
+    .items > img{
+        width: 580px;
+    height: 372px;
+    }
+    
+    .items > h1{
+    font-size: 25px;
+   
+    }
+    
+    .items > p{
+    font-size: 16px;
+    }
+    
+    .items > h6{
+    font-size: 16px;
+ 
+    }
+    .sPart > h3{
+    font-size: 16px;
+
+    
+    }
+    
+    .sPart > h1{
+    font-size: 30px;
+
+    }
+    
+    .sPart > p{
+    font-size: 16px;
+    }
+    
+    .sPart > h5{
+    font-size: 18px;
+
+    }
+    
+
+    
+    .boxes > div:nth-child(2){
+        margin-left:2em
+    }
+    
+    .box{
+    padding: 10px 30px 10px 30px;
+
+    }
+    
+    
+    
+    .box > h1{
+    font-size: 17px;
+
+    }
+    
+    .box > p{
+    font-size: 15px;
+
+    }
+    
+    .sPart > button{
+    padding: 21px 27px 22px 27px;
+    font-size: 16px;
+    margin-top:2em
+    }
+}
+
+
+@media (max-width:1200px){
+    .items{
+        margin:0;
+    }
+    .business{
+        display:block;
+        
+    }
+
+    .fPart{
+        width: 100%;
+        height:700px;
+        padding:0;
+    }
+
+    .items{
+        padding:5em;
+        text-align:center
+    }
+    .items > img{
+        width: 35em;
+    height: 22em;
+    margin:auto auto;
+    }
+    
+    .items > h6{
+    margin:auto auto;
+ 
+    }
+
+    .sPart{
+        margin-top:2em;
+        text-align:center
+    }
+    
+
+    
+    
+.boxes{
+justify-content:center;
+}
+    
+    .sPart > button{
+    margin:auto auto;
+    margin-top:2em
+    }
+}
+
+
+@media (max-width:650px){
+    .fPart{
+        height:600px;
+    }
+    
+    .items{
+        margin:0;
+    }
+    .items > img{
+        width: 22em;
+    height: 14em;
+
+    }
+    .sPart > p{
+        width:80%;
+        margin:auto auto
+     }
+}
+
+@media(max-width:430px){
+    .items > img{
+        width: 16em;
+    height: 10em;
+    }
+ .sPart > p{
+    line-height:15px;
+    width:80%;
+    margin:auto auto
+ }
+.box{
+    margin-left:1em
+}
+}
+
+@media(max-width:350px){
+    .box > h1{
+        line-height:17px
+    }   
+}

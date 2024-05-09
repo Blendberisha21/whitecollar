@@ -1,0 +1,471 @@
+.footer{
+    background:#37393F;
+    margin-top:5em;
+    padding-bottom:3em
+}
+
+.topFooter{
+    display:flex;
+    justify-content: center;
+        display:flex;
+}
+
+
+#headFoot{
+    color: #FFF;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#spanLL{
+    color: #40DDB6;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.topFooter > h1{
+    color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin:3em 8em 0 3em;
+}
+
+
+
+#spanFoot{
+    color: #FFF;
+font-size: 17px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+
+.columns{
+    display:flex;
+    justify-content: center;
+    margin-top:5em
+}
+
+.columns > div:nth-child(2){
+    margin:0 15em 0 15em
+}
+
+.columns > div:nth-child(3){
+    margin-right:10em
+}
+
+.column1 >h1{
+    color: #40DDB6;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.column1 > p{
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 220.187%; 
+}
+
+.footerBox{
+width: 479px;
+padding: 42px 36px;
+gap: 10px;
+flex-shrink: 0;
+background: #474950;
+
+}
+
+
+.footerBox >h1{
+    color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left:1.8em
+}
+
+.footerBox > p{
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 220.187%; 
+    margin-left:2em
+
+}
+
+.inputBox{
+    text-align:center;
+    margin-top:2em
+}
+
+.inputBox > input{
+    width: 264px;
+height: 65px;
+flex-shrink: 0;
+background: #FFF;
+border:none;
+color: #37393F;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.inputBox > button{
+padding: 23px 27px 23.5px 27px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #6B77E5;
+color: #FFF;
+text-align: right;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+border:none;
+}
+
+.footerLastParagraph{
+    display:flex;
+}
+
+#lastParagraph{
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 144.523%; /* 26.014px */
+margin:5em 0 0 8em
+}
+
+#lastParagraph2{
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 144.523%; /* 26.014px */
+margin:5em 0 0 30em
+}
+
+#greenPart{
+    color: #40DDB6;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 144.523%;
+}
+
+#purplePart{
+    color: #6B77E5;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 144.523%;
+}
+
+
+@media(max-width:1650px){
+    .footerBox{
+        width: 350px;
+        
+        }
+         
+        .inputBox > input{
+            width: 180px;
+        }
+        
+        .inputBox > button{
+        padding: 23px 19px 23.5px 19px;
+  
+        }
+}
+
+
+@media(max-width:1500px){
+    .topFooter > h1{
+    margin:3em 5em 0 2em;
+    }
+
+    .footerBox{
+        width: 300px;
+        
+        }
+        
+        .inputBox > input{
+            width: 160px;
+            font-size:16px
+        }
+        
+        .inputBox > button{
+        padding: 24.5px 15px 24.6px 15px;
+        font-size:16px
+        }
+
+        .footerBox >h1{
+            font-size:17px;
+        margin-left:1em;
+        }
+        
+        .footerBox > p{
+            font-size:16px;
+            margin-left:1em
+        
+        }
+
+
+    .columns > div:nth-child(2){
+        margin:0 10em 0 10em
+    }
+    
+    .columns > div:nth-child(3){
+        margin-right:7em
+    }
+    #lastParagraph2{
+    margin:5em 0 0 15em
+    }
+    
+}
+
+
+@media(max-width:1400px){
+    .topFooter > h1{
+        margin:3em 4em 0 2em;
+        }
+    
+     
+        .columns > div:nth-child(2){
+            margin:0 8em 0 8em
+        }
+        
+        .columns > div:nth-child(3){
+            margin-right:5em
+        }
+        #lastParagraph{
+        margin:5em 0 0 4em
+        }
+        #lastParagraph2{
+        margin:5em 0 0 10em
+        }
+}
+
+@media(max-width:1150px){
+    .topFooter > h1{
+        margin:3em 2em 0 2em;
+        font-size:18px
+        }
+        #headFoot{
+            font-size:20px
+        }
+        #spanLL{
+            font-size:20px
+        }
+        .footerBox{
+            width: 270px;
+            
+            }
+            
+            .inputBox > input{
+                width: 130px;
+                font-size:14px
+            }
+            
+            .inputBox > button{
+            padding: 27px 13px 25.6px 13px;
+            font-size:13px
+            }
+    
+            .column1 >h1{
+            font-size: 20px;
+
+            }
+            
+            .column1 > p{
+            font-size: 16px;
+            }
+     
+        .columns > div:nth-child(2){
+            margin:0 6em 0 6em
+        }
+        
+   
+        #lastParagraph{
+        margin:5em 0 0 4em;
+        font-size:15px
+        }
+        #lastParagraph2{
+        margin:5em 0 0 7em;
+        font-size:15px
+
+        }
+}
+
+
+@media(max-width:1000px){
+    .topFooter > h1{
+        font-size:15px
+        }
+   
+        .columns{
+            display:block;
+            text-align:center;
+        }
+
+        .columns > div:nth-child(2){
+            margin:2em 0 0 0;
+        }
+        .columns > div:nth-child(3){
+            margin:2em 0 0 0
+        }
+        .column1 >h1{
+            font-size: 25px;
+
+            }
+            
+            .column1 > p{
+            font-size: 18px;
+            }
+        
+            .footerBox{
+                margin:auto auto;
+                width:400px
+            }
+            .footerBox > h1{
+                font-size:20px
+            }
+            .footerBox > p{
+                font-size:17px
+            }
+            .inputBox > input{
+                width: 200px;
+            height: 65px;
+            font-size: 18px;
+   
+            }
+            
+            .inputBox > button{
+            padding: 23px 27px 23.5px 27px;
+            font-size: 18px;
+
+            }
+}
+
+
+@media(max-width:800px){
+    .topFooter > h1{
+        font-size:13px;
+        margin:3em 1em 0 1em;
+
+        }
+        #headFoot{
+        font-size: 17px;
+        }
+        
+        #spanLL{
+        font-size: 17px;
+
+        }
+        
+ 
+        #lastParagraph{
+            margin:5em 0 0 3em;
+            font-size:12px
+            }
+            #lastParagraph2{
+            margin:5em 0 0 0em;
+            font-size:12px
+    
+            }
+            #greenPart{
+                font-size:13px
+
+            }
+            #purplePart{
+                font-size:13px
+
+            }
+}
+
+@media(max-width:600px){
+    .topFooter > h1{
+        font-size:13px;
+        margin:3em 0 0 1em;
+    }
+    #lastParagraph{
+        margin:5em 0 0 1em;
+        }
+        #lastParagraph2{
+            margin:5em 2em 0 0em;
+    
+            }
+            #spanFoot{
+                font-size:13px
+            }
+}
+
+@media(max-width:430px){
+    .topFooter{
+        display:block;
+text-align:center
+    }
+    #headFoot{
+        padding-top:1em
+    }
+    .topFooter > h1{
+        font-size:16px;
+        margin:3em 0 0 0;
+    }
+    #lastParagraph{
+        margin:5em 0 0 1em;
+        }
+        #lastParagraph2{
+            margin:5em 2em 0 0em;
+    
+            }
+            #spanFoot{
+                font-size:16px
+            }
+        
+            .footerBox{
+                margin:auto auto;
+                width:270px
+            }
+            .footerBox > h1{
+                font-size:16px
+            }
+            .footerBox > p{
+                font-size:15px
+            }
+            .inputBox > input{
+                width: 180px;
+            height: 65px;
+            font-size: 18px;
+   
+            }
+            
+            .inputBox > button{
+            font-size: 18px;
+margin-top:1em
+            }
+}
+
+
+@media(max-width:350px){
+    .footerBox{
+        width:240px
+    }
+}

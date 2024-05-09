@@ -1,0 +1,240 @@
+.body {
+    background-image: url('../images/background.png');
+    background-size: cover; /* Ensure the background covers the entire container */
+    padding: 3em;
+    position: relative; /* Set the position to relative for positioning the absolute children */
+    height: 100vh; /* Set a height so that the background covers the entire viewport */
+    margin-top:1em
+}
+
+
+.text{
+    margin:5em;
+    position:absolute
+
+}
+
+.blur{
+    width: 828px;
+height: 800px;
+flex-shrink: 0;
+fill: rgba(55, 57, 63, 0.91);
+backdrop-filter: blur(9.5px);
+position: absolute;
+
+}
+
+.text > h2{
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 146.187%; /* 26.314px */
+}
+
+.text > h1{
+    color: #FFF;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%; /* 66px */
+}
+
+#business{
+    color: #40DDB6;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%;
+}
+
+.text > p{
+    color: #B9B9B9;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 146.187%; /* 26.314px */
+}
+
+.buttons{
+    display:flex;
+    margin-top:2em
+}
+
+.buttons > button{
+    display: flex;
+padding: 21px 27px 22px 27px;
+margin-top:0.5em;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #40DDB6;
+border:none;
+color: #37393F;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.buttons > svg{
+    width: 60px;
+height: 60px;
+flex-shrink: 0;
+}
+
+.buttons > p{
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+margin-top:1.5em
+}
+
+@media (max-width:1200px){
+    .blluri{
+        justify-content:center;
+        display:flex
+    }
+    .blur{
+        width: 728px;
+        height: 700px;
+        margin:auto auto
+
+    }
+}
+
+@media (max-width:800px){
+
+    .blur{
+        width:600px;
+        height:700px;
+
+    }
+    .text > h2{
+    font-size: 17px;
+
+    }
+    
+    .text > h1{
+    font-size: 50px;
+    }
+    
+    #business{
+    font-size: 50px;
+    }
+    
+    .text > p{
+    font-size: 17px;
+    }
+    
+    .buttons > button{
+    padding: 20px;
+    font-size: 18px;
+    }
+    
+
+}
+
+@media (max-width:670px){
+    .blur{
+        width:500px;
+        height:600px;
+    }
+
+}
+
+
+
+@media (max-width:550px){
+    .body{
+        height: 70vh;
+    }
+    .blur{
+        width:450px;
+        height:600px;
+    }
+    .text > h2{
+        font-size: 16px;
+        margin-top:2em
+        }
+        
+        .text > h1{
+        font-size: 35px;
+        }
+        
+        #business{
+        font-size: 35px;
+        }
+        
+        .text > p{
+        font-size: 16px;
+        }
+        
+        .buttons > button{
+        padding: 10px;
+        font-size: 15px;
+        }
+        
+        .buttons > svg{
+            width: 50px;
+        height: 50px;
+        }
+        
+        .buttons > p{
+        font-size: 17px;
+        }
+}
+
+@media (max-width:430px){
+    .body{
+        height: 80vh;
+    }
+    .blur{
+        width:350px;
+        height:500px;
+    }
+    .text > h2{
+        font-size: 14px;
+        margin-top:1em
+        }
+        
+        .text > h1{
+        font-size: 24px;
+        }
+        
+        #business{
+        font-size: 24px;
+        }
+        
+        .text > p{
+        font-size: 15px;
+        }
+        
+        .buttons > button{
+            padding: 10px;
+            height:50px;
+            font-size: 11px;
+
+        }
+        .buttons{
+            margin-top:0
+        }
+        .buttons > svg{
+            width: 30px;
+        height: 30px;
+        }
+        
+        .buttons > p{
+        font-size: 13px;
+        }
+}
+
+@media (max-width:370px){
+
+}
